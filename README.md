@@ -3,6 +3,14 @@
 ![contestlogo](https://github.com/user-attachments/assets/ed6f09fc-95c9-42b2-8e95-991ecda0db8f)
 
 
+## What's "The Contest"
+
+The Contest is a OBS's web source that provides a Graphical 
+<br>
+User Interface Contest-Like, Interact with your audience 
+<br>
+and let them show up their knowledges in your streams 🙈
+
 ## How to install:
 
 First, made sure you have installed a JS Runtime like Node.js or Bun.js 

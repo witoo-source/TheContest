@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Get Question</title>
+</head>
+<body>
+
+    <div id="container">
+        <span id="questionSpan">Esperando pregunta...</span>
+        <div id="questionContainer">
+            <div id="subQuestionContainer1">
+                <span id="set1" class="option">Opción 1</span>
+                <span id="set2" class="option">Opción 2</span>
+            </div>
+            <div id="subQuestionContainer1">
+                <span id="set3" class="option">Opción 3</span>
+                <span id="set4" class="option">Opción 4</span>
+            </div>
+        </div>
+    </div>
+
+    <script type="module">
+        import { io } from "https://cdn.socket.io/4.7.5/socket.io.esm.min.js";
+
+        const socket = io('http://localhost:3000');
+
+        const questionSpan = document.getElementById('questionSpan')
+        const set1 = document.getElementById('set1')
+        const set2 = document.getElementById('set2')
+        const set3 = document.getElementById('set3')
+        const set4 = document.getElementById('set4')
+
+        socket.on('srq', (data) => {
+            set1.style.backgroundColor = 'white'
+            set2.style.backgroundColor = 'white'
+            set3.style.backgroundColor = 'white'
+            set4.style.backgroundColor = 'white'
+            questionSpan.innerText = data.question 
+            set1.innerText = data.res1
+            set2.innerText = data.res2
+            set3.innerText = data.res3
+            set4.innerText = data.res4
+        })
+
+        socket.on('qs1', (data) => {
+            console.log('qs socket received')
+            set1.style.backgroundColor = 'yellow'
+        })
+
+        socket.on('qs2', (data) => {
+            console.log('qs socket received')
+            set2.style.backgroundColor = 'yellow'
+        })
+        socket.on('qs3', (data) => {
+            console.log('qs socket received')
+            set3.style.backgroundColor = 'yellow'
+        })
+
+        socket.on('qs4', (data) => {
+            console.log('qs socket received')
+            set4.style.backgroundColor = 'yellow'
+        })
+
+        socket.on('crt', (data) => {
+            console.log(data)
+            switch (data.okay) {
+                case set1.innerText:
+                    set1.style.backgroundColor = 'green'
+                    break
+                case set2.innerText:
+                    set2.style.backgroundColor = 'green'
+                    break
+                case set3.innerText:
+                    set3.style.backgroundColor = 'green'
+                    break
+                case set4.innerText:
+                    set4.style.backgroundColor = 'green'
+                    break
+            }
+        })
+    </script>
+</body>
+</html>

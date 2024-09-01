@@ -1,0 +1,162 @@
+{
+  "1": {
+    "question": "En qué año se dio la pandemia por Covid",
+    "res1": "2020",
+    "res2": "2019",
+    "res3": "2021",
+    "res4": "2018",
+    "okay": "2020"
+  },
+  "2": {
+    "question": "¿Cuál es la capital de Francia?",
+    "res1": "Madrid",
+    "res2": "París",
+    "res3": "Londres",
+    "res4": "Berlín",
+    "okay": "París"
+  },
+  "3": {
+    "question": "¿Qué planeta es conocido como el Planeta Rojo?",
+    "res1": "Marte",
+    "res2": "Venus",
+    "res3": "Júpiter",
+    "res4": "Saturno",
+    "okay": "Marte"
+  },
+  "4": {
+    "question": "¿Quién escribió 'Cien años de soledad'?",
+    "res1": "Gabriel García Márquez",
+    "res2": "Mario Vargas Llosa",
+    "res3": "Julio Cortázar",
+    "res4": "Isabel Allende",
+    "okay": "Gabriel García Márquez"
+  },
+  "5": {
+    "question": "¿Cuál es el océano más grande del mundo?",
+    "res1": "Atlántico",
+    "res2": "Pacífico",
+    "res3": "Índico",
+    "res4": "Ártico",
+    "okay": "Pacífico"
+  },
+  "6": {
+    "question": "¿Cuál es el país más poblado del mundo?",
+    "res1": "India",
+    "res2": "China",
+    "res3": "Estados Unidos",
+    "res4": "Indonesia",
+    "okay": "China"
+  },
+  "7": {
+    "question": "¿Qué gas es esencial para la respiración humana?",
+    "res1": "Oxígeno",
+    "res2": "Dióxido de carbono",
+    "res3": "Nitrógeno",
+    "res4": "Helio",
+    "okay": "Oxígeno"
+  },
+  "8": {
+    "question": "¿Cuál es el metal más abundante en la Tierra?",
+    "res1": "Aluminio",
+    "res2": "Hierro",
+    "res3": "Cobre",
+    "res4": "Oro",
+    "okay": "Hierro"
+  },
+  "9": {
+    "question": "¿Quién pintó la Mona Lisa?",
+    "res1": "Vincent van Gogh",
+    "res2": "Pablo Picasso",
+    "res3": "Leonardo da Vinci",
+    "res4": "Claude Monet",
+    "okay": "Leonardo da Vinci"
+  },
+  "10": {
+    "question": "¿Cuál es el órgano más grande del cuerpo humano?",
+    "res1": "Hígado",
+    "res2": "Cerebro",
+    "res3": "Corazón",
+    "res4": "Piel",
+    "okay": "Piel"
+  },
+  "11": {
+    "question": "¿Cuál es el río más largo del mundo?",
+    "res1": "Amazonas",
+    "res2": "Nilo",
+    "res3": "Yangtsé",
+    "res4": "Misisipi",
+    "okay": "Amazonas"
+  },
+  "12": {
+    "question": "¿En qué país se encuentran las pirámides de Giza?",
+    "res1": "México",
+    "res2": "Egipto",
+    "res3": "Perú",
+    "res4": "India",
+    "okay": "Egipto"
+  },
+  "13": {
+    "question": "¿Quién es el autor de 'Don Quijote de la Mancha'?",
+    "res1": "Miguel de Cervantes",
+    "res2": "Federico García Lorca",
+    "res3": "Lope de Vega",
+    "res4": "Benito Pérez Galdós",
+    "okay": "Miguel de Cervantes"
+  },
+  "14": {
+    "question": "¿Qué elemento químico tiene el símbolo 'O'?",
+    "res1": "Oro",
+    "res2": "Oxígeno",
+    "res3": "Osmio",
+    "res4": "Oganesón",
+    "okay": "Oxígeno"
+  },
+  "15": {
+    "question": "¿Qué país ganó la Copa Mundial de la FIFA 2018?",
+    "res1": "Alemania",
+    "res2": "Argentina",
+    "res3": "Brasil",
+    "res4": "Francia",
+    "okay": "Francia"
+  },
+  "16": {
+    "question": "¿Cuál es el idioma oficial de Brasil?",
+    "res1": "Portugués",
+    "res2": "Español",
+    "res3": "Inglés",
+    "res4": "Francés",
+    "okay": "Portugués"
+  },
+  "17": {
+    "question": "¿Quién desarrolló la teoría de la relatividad?",
+    "res1": "Isaac Newton",
+    "res2": "Albert Einstein",
+    "res3": "Galileo Galilei",
+    "res4": "Nikola Tesla",
+    "okay": "Albert Einstein"
+  },
+  "18": {
+    "question": "¿Cuál es el desierto más grande del mundo?",
+    "res1": "Sahara",
+    "res2": "Gobi",
+    "res3": "Kalahari",
+    "res4": "Atacama",
+    "okay": "Sahara"
+  },
+  "19": {
+    "question": "¿Cuál es la moneda oficial de Japón?",
+    "res1": "Yen",
+    "res2": "Dólar",
+    "res3": "Won",
+    "res4": "Yuan",
+    "okay": "Yen"
+  },
+  "20": {
+    "question": "¿Quién escribió la obra 'Hamlet'?",
+    "res1": "William Shakespeare",
+    "res2": "Christopher Marlowe",
+    "res3": "Geoffrey Chaucer",
+    "res4": "John Milton",
+    "okay": "William Shakespeare"
+  }
+}

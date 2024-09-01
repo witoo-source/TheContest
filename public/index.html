@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Send Question</title>
+</head>
+<body>
+    <div id="container">
+        <div id="getContainer">
+            <button id="getButton">
+                Obtener pregunta
+            </button>
+            <button id="testButton">Resolver</button>
+        </div>
+    
+        <div id="qstContainer">
+            <span id="question">Esperando pregunta...</span>
+    
+            <button class="qstButton" id="qstButton1">Opción 1</button>
+            <button class="qstButton" id="qstButton2">Opción 2</button>
+            <button class="qstButton" id="qstButton3">Opción 3</button>
+            <button class="qstButton" id="qstButton4">Opción 4</button>
+        </div>
+    </div>
+
+    <br>
+
+
+    <script type="module">
+        import { io } from "https://cdn.socket.io/4.7.5/socket.io.esm.min.js";
+
+        const socket = io('http://localhost:3000')
+
+        const getButton = document.getElementById('getButton')
+
+        const qst1 = document.getElementById('qstButton1')
+        const qst2 = document.getElementById('qstButton2')
+        const qst3 = document.getElementById('qstButton3')
+        const qst4 = document.getElementById('qstButton4')
+        const questionSpan = document.getElementById('question')
+        const testButton = document.getElementById('testButton')
+
+        let questionData;
+
+        getButton.addEventListener('click', () => {
+            socket.emit('rfrq', 'rfrq')
+            socket.on('srq', (data) => {
+                console.log(data)
+                qst1.innerText = data.res1
+                qst2.innerText = data.res2
+                qst3.innerText = data.res3
+                qst4.innerText = data.res4
+                questionSpan.innerText = data.question
+                questionSpan.style.boxShadow = '0px 0px 35px 0px red'
+            })
+        })
+
+        qst1.addEventListener('click', () => {
+            console.log('socket submited')
+            socket.emit('qs1', 'qs1')
+        })
+
+        qst2.addEventListener('click', () => {
+            console.log('socket submited')
+            socket.emit('qs2', 'qs2')
+        })
+
+        qst3.addEventListener('click', () => {
+            console.log('socket submited')
+            socket.emit('qs3', 'qs4')
+        })
+
+        qst4.addEventListener('click', () => {
+            console.log('socket submited')
+            socket.emit('qs4', 'qs4')
+        })
+
+        testButton.addEventListener('click', () => {
+            socket.emit('crt', 'crt')
+        })
+    </script>
+</body>
+</html>

@@ -79,4 +79,4 @@ You have to use `node index.js` / `bun index.js` command every time you want to 
 
 - There are 20 questions, you cand add more questions by editing the `questions.json` file (you can use ChatGPT for this thing)
 - Questions are in Spanish, if your language is not Spanish and you want to put the questions in your language, you could follow the first note
-- In next version, i will add a user interface to changue language questions and an easy instalation which will not require a JS Runtime installed  
+- In next version, i will add a user interface to change language questions and an easy instalation which will not require a JS Runtime installed  

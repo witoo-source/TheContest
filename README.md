@@ -60,13 +60,13 @@ bun index.js
 
 -----
 
-# Note: 
+## Note: 
 
 You have to use `node index.js` / `bun index.js` command every time you want to use 'The Contest'
 
 -----
 
-# How to use
+## How to use
 
 #### 1- [Click here to open SEND Page](http://localhost:3000/send)
 #### 2- Open OBS and add Browser source
@@ -75,7 +75,7 @@ You have to use `node index.js` / `bun index.js` command every time you want to 
 
 -----
 
-# More notes:
+## More notes:
 
 - There are 20 questions, you cand add more questions by editing the `questions.json` file (you can use ChatGPT for this thing)
 - Questions are in Spanish, if your language is not Spanish and you want to put the questions in your language, you could follow the first note

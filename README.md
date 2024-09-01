@@ -81,4 +81,4 @@ You have to use `node index.js` / `bun index.js` command every time you want to 
 - Questions are in Spanish, if your language is not Spanish and you want to put the questions in your language, you could follow the first note
 - In next version, i will add a user interface to change language questions and an easy instalation which will not require a JS Runtime installed
 
-# THIS PROJECT IS BASED IN THE STREAMING FORMAT 'EL CONCURSILLO' BY ILLOJUAN
+# THIS PROJECT IS BASED ON THE STREAMING FORMAT 'EL CONCURSILLO' BY ILLOJUAN

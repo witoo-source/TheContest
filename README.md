@@ -64,3 +64,11 @@ You have to use `node index.js` / `bun index.js` command every time you want to 
 #### 2- Open OBS and add Browser source
 #### 3- Then in the URL Parameter put `http://localhost:3000/get`
 #### 4- Now you can click Get Question button in [Send Page](http://localhost:3000/send) and see how the question is showed in the OBS's preview
+
+-----
+
+# More notes:
+
+- There are 20 questions, you cand add more questions by editing the questions.json file (you can use ChatGPT for this thing)
+- Questions are in Spanish, if your language is not Spanish and you want to put the questions in your language, you could follow the first note
+- In next version, i will add a user interface to changue language questions and an easy instalation which will not require a JS Runtime installed  

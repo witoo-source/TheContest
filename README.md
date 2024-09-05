@@ -13,7 +13,7 @@ and let them show up their knowledges in your streams 🙈
 
 ## How to install:
 
-First, [Install the latest release](https://github.com/witoo-source/TheContest/releases/tag/the-contest) 
+[Install the latest release](https://github.com/witoo-source/TheContest/releases/tag/the-contest) 
 
 ### then:
 

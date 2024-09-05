@@ -26,11 +26,13 @@ Execute the installer, once time it's installed, re-open the file to execute "Th
 
 
 #### 2- Open OBS and add Browser source
+![Captura de pantalla 2024-09-05 a las 3 32 37](https://github.com/user-attachments/assets/d6ab23d8-b53a-41f9-8615-0196846d3880)
+
+##### 2.1- Put a name
 ![Captura de pantalla 2024-09-05 a las 3 19 11](https://github.com/user-attachments/assets/1caf5832-9864-489f-afe8-d5e7f1d0db28)
 
 
 #### 3- Then in the URL Parameter put `http://localhost:3000/get`
-![Captura de pantalla 2024-09-05 a las 3 18 51](https://github.com/user-attachments/assets/a9d1c577-3b90-482c-82c9-85af0449e344)
 ![Captura de pantalla 2024-09-05 a las 3 20 13](https://github.com/user-attachments/assets/ee755bf4-63fa-4dae-b38e-ce04e2a6c8ca)
 
 ### You will see something like this:
@@ -39,7 +41,7 @@ Execute the installer, once time it's installed, re-open the file to execute "Th
 
 #### Note: If you don't see that, try this:
 
-- Double click in the source ypu have added
+- Double click in the source you have added
   
 ![Captura de pantalla 2024-09-05 a las 3 24 27](https://github.com/user-attachments/assets/b2a95a86-c85c-4e95-8883-46d17dee737d)
 
